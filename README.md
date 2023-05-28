@@ -5,19 +5,23 @@ Improved version of Goodreads based upon Jakob Nielsen's 10 general principles f
 Visit this page at: https://dominickstephens.github.io/Betterreads/
 
 # Files
-HTML -> index.html  
+HTML -> 
+  index.html  
         log.html  
         library.html  
         friends.html  
          
-CSS ->  new.css  
+CSS ->  
+  new.css  
         friends.css  
           
-JS ->   new.js  
+JS ->   
+  new.js  
         log.js  
         main.js  
     
-Images - > /img
+Images - > 
+  /img
 
 # Features
 - Explore Page - view what your friends are reading and recommended books
