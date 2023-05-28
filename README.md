@@ -6,7 +6,7 @@ Visit this page at: https://dominickstephens.github.io/Betterreads/
 
 # Files
 HTML -> 
-  index.html  
+        index.html  
         log.html  
         library.html  
         friends.html  
@@ -16,12 +16,12 @@ CSS ->
         friends.css  
           
 JS ->   
-  new.js  
+        new.js  
         log.js  
         main.js  
     
 Images - > 
-  /img
+        /img
 
 # Features
 - Explore Page - view what your friends are reading and recommended books
