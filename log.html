@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Goodreads</title>
+
+  <link rel="stylesheet" href="css/new.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <a href="index.html" class="logo">Goodreads</a>
+  <ul class ="navlist">
+    <li><a href="index.html">Explore</a></li>
+    <li><a href="library.html">My Library</a></li>
+    <li><a href="friends.html">Friends</a></li>
+    <li><a href="#" class="active"><i class="ri-add-line"></i>Log Book</a></li>
+  </ul>
+
+  <div class="bx bx-menu" id="menu-icon"></div>
+
+</header>
+<main>
+  <section class="book section_snap">
+    <div class="book-text">
+      <div style="margin-bottom: 20px;">
+        <div class="log">
+          <p>Log Book</p>
+          <input type="text" id="title-input" class="log-inp" placeholder="Title" oninput="updateTitle()">
+        </div>
+        <h1 style="font-size: 65px;" id="book-title">...</h1>
+        <p>What did it make you feel?</p>
+        <input type="text" class="log-inp" placeholder="I felt...">
+      </div>
+      <div class="rating">
+        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+      </div>
+      <div class="log-btn">
+        <a href="#" class="log-btn">Log Book</a>
+      </div>
+    </div>
+
+    <div class="book-img" id="book-img">
+      <img id = "img" class="floating" src="img/song_of_achilles.jpg" alt="bookshelf">
+    </div>
+    </div>
+  </section>
+
+</main>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+<script src="js/log.js"></script>
+
+</body>
+</html>

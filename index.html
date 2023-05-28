@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Goodreads</title>
+
+  <link rel="stylesheet" href="css/new.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <header>
+      <a href="index.html" class="logo">Goodreads</a>
+      <ul class ="navlist">
+        <li><a href="#" class="active">Explore</a></li>
+        <li><a href="library.html">My Library</a></li>
+        <li><a href="friends.html">Friends</a></li>
+        <li><a href="log.html"><i class="ri-add-line"></i>Log Book</a></li>
+      </ul>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+    </header>
+    <main>
+      <section class="book section_snap" id="first">
+        <div class="book-text">
+          <h4>Book Of The Month</h4>
+          <h1>Sea Of Tranquility</h1>
+          <h4>Emily St. John Mandel</h4>
+          <a href="#" class="btn">Add to TBR</a>
+          <a href="#" class="ctaa">See Reviews</a>
+        </div>
+
+          <div class="book-img">
+            <img class="floating" src="img/book.jpg" alt="bookshelf">
+          </div>
+      </section>
+
+      <section class="book section_snap">
+          <div class="wrapper">
+            <h4>Your friends are reading</h4>
+            <div>
+              <i id="left" class="ri-arrow-left-s-line"></i>
+            </div>
+            <ul class="carousel">
+              <li class="card">
+                <div class="img"><img src="img/ulysses.jpg" alt="img" draggable="false"></div>
+                <h2>Ulysses</h2>
+                <span>James Joyce</span>
+                <h3>Dominick</h3>
+              </li>
+              <li class="card">
+                <div class="img"><img src="img/great_gatsby.jpg" alt="img" draggable="false"></div>
+                <h2>The Great Gatsby</h2>
+                <span>F. Scott Fitzgerald</span>
+                <h3>Annika</h3>
+              </li>
+              <li class="card">
+                <div class="img"><img src="img/war_and_peace.jpg" alt="img" draggable="false"></div>
+                <h2>War and Peace</h2>
+                <span>Leo Tolstoy</span>
+                <h3>Tom</h3>
+              </li>
+              <li class="card">
+                <div class="img"><img src="img/wuthering-heights.jpg" alt="img" draggable="false"></div>
+                <h2>Wuthering Heights</h2>
+                <span>Emily Brontë</span>
+                <h3>Sunny</h3>
+              </li>
+              <li class="card">
+                <div class="img"><img src="img/pride-and-prejudice.jpg" alt="img" draggable="false"></div>
+                <h2>Pride and Prejudice</h2>
+                <span>Jane Austen</span>
+                <h3>Beatrice</h3>
+              </li>
+              <li class="card">
+                <div class="img"><img src="img/ToTheLighthouse.jpg" alt="img" draggable="false"></div>
+                <h2>To the Lighthouse</h2>
+                <span>Virginia Woolf</span>
+                <h3>Oscar</h3>
+              </li>
+            </ul>
+            <i id='right' class="ri-arrow-right-s-line"></i>
+          </div>
+      </section>
+
+      <section class="book section_snap">
+        <h2 style="color:white; font-size: 50px;">Recommended For You By Us</h2>
+        <div class="grid-container">
+          <img class="book-image" src="img/wuthering-heights.jpg" alt="Book 1">
+          <img class="book-image" src="img/pride-and-prejudice.jpg" alt="Book 2">
+          <img class="book-image" src="img/ToTheLighthouse.jpg" alt="Book 3">
+          <img class="book-image" src="img/great_gatsby.jpg" alt="Book 3">
+          <img class="book-image" src="img/ulysses.jpg" alt="Book 3">
+          <img class="book-image" src="img/war_and_peace.jpg" alt="Book 3">
+          <!-- Add more book images here -->
+        </div>
+      </section>
+
+
+    </main>
+    <div class="scroll-down">
+      <a href="#first"><i class="ri-arrow-up-s-line"></i></a>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+    <script src="js/new.js"></script>
+
+  </body>
+</html>
