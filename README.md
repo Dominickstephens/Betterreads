@@ -6,21 +6,25 @@ Visit this page at: https://dominickstephens.github.io/Betterreads/
 
 # Files
 HTML ->   
+        
         index.html  
         log.html  
         library.html  
         friends.html  
          
-CSS ->    
+CSS ->  
+       
         new.css  
         friends.css  
           
-JS ->     
+JS ->  
+        
         new.js  
         log.js  
         main.js  
     
-Images - >   
+Images - > 
+        
         /img
 
 # Features
