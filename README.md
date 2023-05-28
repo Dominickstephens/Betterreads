@@ -18,3 +18,9 @@ JS ->   new.js
         main.js  
     
 Images - > /img
+
+# Features
+- Explore Page - view what your friends are reading and recommended books
+- Page to log books and leave star rating and note its impact ( Works with 'Song Of Achilles' and 'The Great Gatsby')
+- Friend Page - view your friends and book clubs
+- My Library page - view your TBR and Bookshelf
